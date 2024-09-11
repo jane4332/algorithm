@@ -62,3 +62,10 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+
+ ## 문제점
+- 처음에 소문자랑 똑같은거만 비교인줄알고 문제풀어서 실행함 ㅋ
+- `.charAt(i)` 이거 어떻게 쓰는지 까먹었어서 찾아봄 index 넣기 꼭..!
+- 분명 string 메서드 안에 대소문자 비교하지 않는게 있을것 같은데 어떤 메서드인지 몰라서 검색해봄 `equalsIgnoreCase` 였다네요~ 문자열 비교 라서 String 으로 꼭 변환해서 하는거 잊지말기..
+- 추가로  `str.toLowerCase();` 소문자로 바꾸기  `str.toUpperCase();`   - 대문자로 바꾸기
